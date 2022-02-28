@@ -1,0 +1,13 @@
+.heading {
+  color: red;
+}
+
+img {
+  /* height: 100px !important;
+  width: 100px !important; */
+  height: 200px;
+  width: 200px;
+  /* display: block; */
+  margin: 5px;
+  border: 1px solid black;
+}
