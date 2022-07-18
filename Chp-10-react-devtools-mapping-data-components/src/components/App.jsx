@@ -22,6 +22,7 @@ function App() {
       <h1 className="heading">My Contacts</h1>
       <Avatar avatarImg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwck8Q3ZL1Z_h05yn-lNdajJJoEUgORmjjLQlqwItzLGZ1t6t0pUG6-6aBrgGAVfAZpFw&usqp=CAU" />
 
+      {/* Mapping data to components */}
       {contacts.map(createCard)}
       {/* <Card
         name={contacts[0].name}
