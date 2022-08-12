@@ -7,17 +7,16 @@ import CreateArea from "./CreateArea";
 function App() {
   const [notes, setNotes] = useState([]);
 
-  function addNotes(title, content) {
-    console.log("title>>", title);
-    console.log("content>>", content);
+  function addNotes(note) {
     setNotes((prevValues) => {
-      const note = {
-        title: title,
-        content: content
-      };
-      const newArr = [...prevValues, note];
-      console.log(newArr);
-      return newArr;
+      // const note = {
+      //   title: title,
+      //   content: content
+      // };
+      // const newArr = [...prevValues, note];
+      // console.log(newArr);
+      // return newArr;
+      return [...prevValues, note];
     });
   }
 
